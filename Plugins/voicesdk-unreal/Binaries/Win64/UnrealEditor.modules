@@ -1,0 +1,10 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"PlatformIntegration": "UnrealEditor-PlatformIntegration.dll",
+		"VoiceSDK": "UnrealEditor-VoiceSDK.dll",
+		"Wit": "UnrealEditor-Wit.dll",
+		"WitEditor": "UnrealEditor-WitEditor.dll"
+	}
+}
