@@ -10,9 +10,10 @@
 	"DocsURL": "https://github.com/wit-ai/voicesdk-unreal/blob/main/README.md",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/960815697bc942f19848aec9cf502867",
 	"SupportURL": "https://github.com/wit-ai/voicesdk-unreal/issues",
-	"EngineVersion": "5.3.0",
 	"CanContainContent": true,
-	"Installed": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
 	"SupportedTargetPlatforms": [
 		"Android",
 		"Win64"
@@ -22,34 +23,15 @@
 			"Name": "VoiceSDK",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"PlatformAllowList": [
+			"WhitelistPlatforms": [
 				"Win64",
 				"Android"
 			]
-		},
-		{
+		},{
 			"Name": "PlatformIntegration",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "Wit",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "WitEditor",
-			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit",
-			"PlatformAllowList": [
+			"WhitelistPlatforms": [
 				"Win64"
 			]
 		}
@@ -57,6 +39,10 @@
 	"Plugins": [
 		{
 			"Name": "AndroidPermission",
+			"Enabled": true
+		},
+		{
+			"Name": "Wit",
 			"Enabled": true
 		}
 	]
