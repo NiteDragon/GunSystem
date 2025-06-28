@@ -298,3 +298,6 @@
 [20:29:22] ConvaiSubsystemLog : Log : Start Run
 [20:29:36] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
 [20:29:36] ConvaiSubsystemLog : Log : End Run
+[21:51:19] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[21:51:19] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID :  | Session ID : 
+[21:51:19] ConvaiGRPCFeedBackLog : Log : On Stream Finish | Interaction ID :  | Feedback Text :  | ThumbsUp: False
